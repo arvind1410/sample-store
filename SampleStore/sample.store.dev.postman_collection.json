@@ -7,22 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "1.Store REST Client",
-			"item": [
-				{
-					"name": "1.1.Store REST API DCR Request",
-					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"id": "43f04037-72aa-4105-9df1-c36b0bd2310d",
-								"type": "text/javascript"
-							}
-						}
-					]
-					
-				},
-				{
+			{
 					"name": "1.2.Get Token",
 					"event": [
 						{
@@ -40,12 +25,7 @@
 							"script": {
 								"id": "122a5274-84d0-4cbb-aaa7-0056b867bed7",
 								"exec": [
-									"var jsonData = pm.response.json();",
-									"pm.globals.set(\"store_rest_accesstoken\", jsonData.access_token);",
-									"",
-									"pm.test(\"Status code is 200\", function () {",
-									"    pm.response.to.have.status(200);",
-									"});"
+									" "
 								],
 								"type": "text/javascript"
 							}
