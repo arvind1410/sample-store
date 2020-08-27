@@ -6,38 +6,7 @@
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
-		{
-			{
-					"name": "1.2.Get Token",
-					"event": [
-						{
-							"listen": "prerequest",
-							"script": {
-								"id": "db51d5b6-a010-455a-b4c5-41a5ad045604",
-								"exec": [
-									""
-								],
-								"type": "text/javascript"
-							}
-						},
-						{
-							"listen": "test",
-							"script": {
-								"id": "122a5274-84d0-4cbb-aaa7-0056b867bed7",
-								"exec": [
-									" "
-								],
-								"type": "text/javascript"
-							}
-						}
-					]
-					
-						
-				
-			}
-			"protocolProfileBehavior": {}
-		},
-		{
+				{
 			"name": "2.Create Application and Subscription",
 			"item": [
 				{
@@ -48,12 +17,8 @@
 							"script": {
 								"id": "922691c0-d890-4c04-98f2-70d6d36c33fc",
 								"exec": [
-									"var jsonData = pm.response.json();",
-									"pm.globals.set(\"sample_application_id\", jsonData.applicationId);",
-									"",
-									"pm.test(\"Status code is 201\", function () {",
-									"    pm.response.to.have.status(201);",
-									"});"
+									" "
+									
 								],
 								"type": "text/javascript"
 							}
@@ -69,15 +34,7 @@
 							"script": {
 								"id": "0b434108-16de-41b3-b54a-942a16e6553b",
 								"exec": [
-									"var jsonData = pm.response.json();",
-									"pm.globals.set(\"store_sample_app_clientid\", jsonData.consumerKey);",
-									"pm.globals.set(\"store_sample_app_clientsecret\", jsonData.consumerSecret);",
-									"pm.globals.set(\"sample_application_accesstoken\", jsonData.token.accessToken);",
-									"",
-									"",
-									"pm.test(\"Status code is 200\", function () {",
-									"    pm.response.to.have.status(200);",
-									"});"
+									" "
 								],
 								"type": "text/javascript"
 							}
@@ -93,16 +50,7 @@
 							"script": {
 								"id": "d17a35dd-7d80-40dd-9208-88c21e5f0d5e",
 								"exec": [
-									"var jsonData = pm.response.json();",
-									"pm.globals.set(\"samplestore_api_id\", jsonData.list[0].id);",
-									"",
-									"pm.test(\"Status code is 200\", function () {",
-									"    pm.response.to.have.status(200);",
-									"});",
-									"",
-									"pm.test(\"SampleStore API exists\", function () {",
-									"    pm.expect(jsonData.count).to.eql(1);",
-									"});"
+									" "
 								],
 								"type": "text/javascript"
 							}
