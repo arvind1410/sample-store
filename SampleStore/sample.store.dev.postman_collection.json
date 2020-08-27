@@ -16,16 +16,6 @@
 							"listen": "test",
 							"script": {
 								"id": "43f04037-72aa-4105-9df1-c36b0bd2310d",
-								"exec": [
-									"var jsonData = pm.response.json();",
-									"pm.globals.set(\"store_rest_clientId\", jsonData.clientId);",
-									"pm.globals.set(\"store_rest_clientSecret\", jsonData.clientSecret);",
-									"",
-									"",
-									"pm.test(\"Status code is 200\", function () {",
-									"    pm.response.to.have.status(200);",
-									"});"
-								],
 								"type": "text/javascript"
 							}
 						}
