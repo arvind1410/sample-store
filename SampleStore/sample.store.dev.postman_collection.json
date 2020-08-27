@@ -53,13 +53,10 @@
 							"raw": "{\n        \"callbackUrl\": \"www.google.lk\",\n        \"clientName\": \"rest_api_store\",\n        \"owner\": \"admin\",\n        \"grantType\": \"password refresh_token\",\n        \"saasApp\": true\n}"
 						},
 						"url": {
-							"raw": "https://10.62.156.85 /client-registration/v0.15/register",
+							"raw": "https://10.62.156.85:9443/client-registration/v0.15/register",
 							"protocol": "https",
 							"host": [
-								"dev",
-								"apim",
-								"wso2",
-								"com"
+								"10.62.156.85:9443"
 							],
 							"path": [
 								"client-registration",
@@ -156,13 +153,10 @@
 							]
 						},
 						"url": {
-							"raw": "https://10.62.156.85 /token",
+							"raw": "https://10.62.156.85:9443/token",
 							"protocol": "https",
 							"host": [
-								"dev",
-								"apim",
-								"wso2",
-								"com"
+								"10.62.156.85:9443"
 							],
 							"path": [
 								"token"
@@ -225,13 +219,10 @@
 							"raw": "{\n    \"throttlingTier\": \"Unlimited\",\n    \"description\": \"sample app description\",\n    \"name\": \"sampleapp\",\n    \"callbackUrl\": \"http://my.server.com/callback\"\n}"
 						},
 						"url": {
-							"raw": "https://10.62.156.85 /api/am/store/v0.15/applications",
+							"raw": "https://10.62.156.85:9443/api/am/store/v0.15/applications",
 							"protocol": "https",
 							"host": [
-								"dev",
-								"apim",
-								"wso2",
-								"com"
+								"10.62.156.85:9443"
 							],
 							"path": [
 								"api",
@@ -296,13 +287,10 @@
 							"raw": "{\n  \"validityTime\": \"3600\",\n  \"keyType\": \"SANDBOX\",\n  \"scopes\": [ \"am_application_scope\", \"default\" ],\n  \"grantTypesToBeSupported\": [ \"client_credentials\", \"password\" ]\n}"
 						},
 						"url": {
-							"raw": "https://10.62.156.85 /api/am/store/v1.0/applications/{{sample_application_id}}/generate-keys",
+							"raw": "https://10.62.156.85:9443/api/am/store/v1.0/applications/{{sample_application_id}}/generate-keys",
 							"protocol": "https",
 							"host": [
-								"dev",
-								"apim",
-								"wso2",
-								"com"
+								"10.62.156.85:9443"
 							],
 							"path": [
 								"api",
@@ -369,13 +357,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://10.62.156.85 /api/am/store/v1.0/apis?query=\"SampleStore\"",
+							"raw": "https://10.62.156.85:9443/api/am/store/v1.0/apis?query=\"SampleStore\"",
 							"protocol": "https",
 							"host": [
-								"dev",
-								"apim",
-								"wso2",
-								"com"
+								"10.62.156.85:9443"
 							],
 							"path": [
 								"api",
@@ -442,13 +427,10 @@
 							"raw": "{\n\"apiId\":\"{{samplestore_api_id}}\",\n\"applicationId\":\"{{sample_application_id}}\",\n\"throttlingPolicy\":\"Unlimited\",\n\"type\":\"API\"\n}"
 						},
 						"url": {
-							"raw": "https://10.62.156.85 /api/am/store/v1.0/subscriptions",
+							"raw": "https://10.62.156.85:9443/api/am/store/v1.0/subscriptions",
 							"protocol": "https",
 							"host": [
-								"dev",
-								"apim",
-								"wso2",
-								"com"
+								"10.62.156.85:9443"
 							],
 							"path": [
 								"api",
@@ -1005,13 +987,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "https://10.62.156.85 /api/am/store/v0.15/applications/{{sample_application_id}}",
+							"raw": "https://10.62.156.85:9443/api/am/store/v0.15/applications/{{sample_application_id}}",
 							"protocol": "https",
 							"host": [
-								"dev",
-								"apim",
-								"wso2",
-								"com"
+								"10.62.156.85:9443"
 							],
 							"path": [
 								"api",
@@ -1055,7 +1034,7 @@
 		{
 			"id": "baf5be5e-d86a-4cb7-a4ec-1e61389fff40",
 			"key": "baseUrl",
-			"value": "https://10.62.156.85 :8243/SampleStore/1.0.0",
+			"value": "https://10.62.156.85:8243/SampleStore/1.0.0",
 			"type": "string"
 		}
 	],
