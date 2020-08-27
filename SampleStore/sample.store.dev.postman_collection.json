@@ -122,6 +122,14 @@
 					]
 					
 						
+				},
+				{
+					"name": "3.4.Delete Application",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						},
+					"response": []
 				}
 		 	]
 		}	
