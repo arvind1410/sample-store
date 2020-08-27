@@ -11,50 +11,18 @@
 			"item": [
 				{
 					"name": "2.1.Create App",
-					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"id": "922691c0-d890-4c04-98f2-70d6d36c33fc",
-								"exec": [
-									" "
-									
-								],
-								"type": "text/javascript"
-							}
-						}
-					]
+					
 					
 				},
 				{
 					"name": "2.2.Generate Keys for Application",
-					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"id": "0b434108-16de-41b3-b54a-942a16e6553b",
-								"exec": [
-									" "
-								],
-								"type": "text/javascript"
-							}
-						}
-					]
+					
 					
 				},
 				{
 					"name": "2.3.Get SampleStore API",
 					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"id": "d17a35dd-7d80-40dd-9208-88c21e5f0d5e",
-								"exec": [
-									" "
-								],
-								"type": "text/javascript"
-							}
-						},
+						
 						{
 							"listen": "prerequest",
 							"script": {
@@ -70,18 +38,7 @@
 				},
 				{
 					"name": "2.4.Subscribe API",
-					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"id": "e3f0479b-3312-4b98-bc9b-762a79195dc8",
-								"exec": [
-									" "
-								],
-								"type": "text/javascript"
-							}
-						}
-					]
+					
 					
 				}
 			],
@@ -92,44 +49,18 @@
 			"item": [
 				{
 					"name": "3.1.Get Product List",
-					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"id": "20ad9a31-1c64-4dc9-8fcd-a43ceb790584",
-								"exec": [
-									" "
-								],
-								"type": "text/javascript"
-							}
-						}
-					]
+					
 					
 				},
 				{
 					"name": "3.3.Get Product By Id",
-					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"id": "6508807c-a1b1-4eae-bd57-cb590ca5855d",
-								"exec": [
-									" "
-								],
-								"type": "text/javascript"
-							}
-						}
-					]
+					
 					
 						
 				},
 				{
 					"name": "3.4.Delete Application",
-					"request": {
-						"method": "DELETE",
-						"header": [],
-						},
-					"response": []
+					
 				}
 		 	]
 		}	
@@ -146,16 +77,7 @@
 				]
 			}
 		},
-		{
-			"listen": "test",
-			"script": {
-				"id": "377431b6-8c79-423c-84bb-fd9f76ce95b7",
-				"type": "text/javascript",
-				"exec": [
-					""
-				]
-			}
-		}
+		
 	]
 	
 }
