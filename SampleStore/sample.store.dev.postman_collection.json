@@ -107,22 +107,6 @@
 					
 				},
 				{
-					"name": "3.2.Add Product",
-					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"id": "0ef74d03-e7be-47c0-98e3-50663cd5af57",
-								"exec": [
-									" "],
-								"type": "text/javascript"
-							}
-						}
-					]
-					
-					
-				},
-				{
 					"name": "3.3.Get Product By Id",
 					"event": [
 						{
