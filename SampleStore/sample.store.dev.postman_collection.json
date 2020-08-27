@@ -10,12 +10,12 @@
 			"name": "2.Create Application and Subscription",
 			"item": [
 				{
-					"name": "2.1.Create App",
+					"name": "2.1.Create App"
 					
 					
 				},
 				{
-					"name": "2.2.Generate Keys for Application",
+					"name": "2.2.Generate Keys for Application"
 					
 					
 				},
@@ -37,7 +37,7 @@
 					
 				},
 				{
-					"name": "2.4.Subscribe API",
+					"name": "2.4.Subscribe API"
 					
 					
 				}
@@ -47,18 +47,18 @@
 			"name": "3.Store REST API Client",
 			"item": [
 				{
-					"name": "3.1.Get Product List",
+					"name": "3.1.Get Product List"
 					
 					
 				},
 				{
-					"name": "3.3.Get Product By Id",
+					"name": "3.3.Get Product By Id"
 					
 					
 						
 				},
 				{
-					"name": "3.4.Delete Application",
+					"name": "3.4.Delete Application"
 					
 				}
 		 	]
